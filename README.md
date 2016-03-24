@@ -3,14 +3,15 @@ Some Javascript to connect to Instragram (implicit) and access user photos using
 
 # Example
 I've used it in my code to get all the images uploaded by a user
+You need to have the Instagram object reference on the return URL too.
 
 ```
 $(document).ready(function () {
     
     // Init Instagram
     Instagram.init({
-        clientId: '3abd0394e5404ef99f613021df0c6c6d',
-        redirectURI: 'http://cssplayground.dev/',
+        clientId: CLIENT-ID,
+        redirectURI: YOUR-URL,
     });
     
     $(document).on('click', '#insta-login', function(e){
