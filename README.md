@@ -2,7 +2,7 @@
 Some Javascript to connect to Instragram (implicit) and access user photos using permissions.
 
 # Example
-I've used it in my code to get all the images uploaded by a user
+I've used it in my code to get all the images uploaded by a user. 
 You need to have the Instagram object reference on the return URL too.
 
 ```
